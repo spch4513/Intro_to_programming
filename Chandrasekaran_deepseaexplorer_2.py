@@ -645,7 +645,7 @@ def main():
             draw_pause_screen(screen, score, time_elapsed, skill_level)
         
         elif state == 'gameover':
-            draw_game_over_screen(screen, score, high_score, time_survived, skill_level, achievements)
+            draw_game_over_screen(screen, score, high_score, time_elapsed, skill_level, achievements)
         
         pygame.display.flip()
     
